@@ -1,0 +1,386 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Header styles */
+.header {
+  background-color: #4CAF50; /* Green background color */
+  color: #fff; /* White text color */
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.navigation {
+  display: inline-block;
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navigation ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cta-button {
+  background-color: #fff; /* White button background color */
+  color: #4CAF50; /* Green button text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #f0f0f0; /* Light gray button background color on hover */
+}
+
+
+.hero {
+
+  color: #131212; 
+  text-align: center;
+  padding:20px;
+}
+
+.hero-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero-cta-button {
+  background-color: #000000; 
+  color: #4CAF50; 
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-cta-button:hover {
+  background-color: #f0f0f0; 
+}
+
+.featured-container {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping to create a single row */
+  justify-content: space-around; /* Distribute items evenly along the main axis */
+  align-items: flex-start; /* Align items to the start of the cross axis */
+}
+
+/* Featured products section styles */
+.featured-products {
+  background-color: #f0f0f0; /* Light gray background color */
+  padding: 50px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.product {
+  width: 250px;
+  margin:  4px;
+  background-color: #fff; /* White background color for each product */
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.product img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.product-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4CAF50; /* Green text color for price */
+  margin-bottom: 20px;
+  display: block;
+}
+
+.product-button {
+  background-color: #4CAF50; /* Green button background color */
+  color: #fff; /* White button text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.product-button:hover {
+  background-color: #45a049; /* Darker green button background color on hover */
+}
+
+
+
+/* Benefits Section styles */
+.benefits {
+  background-color: #ebe6e6; /* Light gray background color */
+  padding: 50px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.benefits-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around; /* Distribute items evenly along the main axis */
+  align-items: flex-start; /* Align items to the start of the cross axis */
+}
+
+.benefit img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.benefit-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.benefit-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Testimonials section styles */
+.testimonials {
+  background-color: #f9f9f9; /* Light gray background color */
+  padding: 50px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.testimonial {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonial img {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  border-radius: 50%; /* Make the image round */
+  margin-bottom: 20px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* Newsletter section styles */
+.newsletter {
+  background-color: #4CAF50; /* Green background color */
+  color: #fff; /* White text color */
+  padding: 50px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.newsletter-description {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.newsletter-form {
+  text-align: center;
+}
+
+.newsletter-form input[type="email"] {
+  width: 300px; /* Adjust width as needed */
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-subscribe {
+  background-color: #fff; /* White button background color */
+  color: #4CAF50; /* Green button text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-subscribe:hover {
+  background-color: #f0f0f0; /* Light gray button background color on hover */
+}
+
+/* Footer section styles */
+.footer {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 50px 0;
+}
+
+.footer-container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-column {
+  width: 30%;
+}
+
+.footer-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #777; /* Gray border */
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.social-link:last-child {
+  margin-right: 0;
+}
+
+/* Slider styles */
+.slider-container {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 2px;
+
+
+}
+
+.slider {
+  display: flex;
+
+}
+
+.slide {
+  width: 100%;
+  display: none;
+  
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Store</title>
+    <link rel="stylesheet" href="assert/css/style.css">
+
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+        <h1 class="logo">Mobile Store</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#"onclick="scrollToSection('featured-products)">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="cta-button">Shop Now</a>
+    </div>
+</header>
+
+<section class="hero" >
+    <div class="container">
+        <h2 class="hero-title">Discover the Latest in Mobile Technology</h2>
+        <p class="hero-subtitle">Explore our wide range of smartphones and accessories.</p>
+        <a href="#" class="hero-cta-button">Shop Now</a>
+    </div>
+
+</section>
+
+<section class="slider-container">
+  
+  <div class="slider">
+      <img src="assert/img/2.jpg" alt="Image 1" class="slide">
+      <img src="assert/img/3.jpg" alt="Image 2" class="slide">
+      <img src="assert/img/1.jpg" alt="Image 3" class="slide">
+  </div>
+  <button class="prev" onclick="prevSlide()">&#10094;</button>
+  <button class="next" onclick="nextSlide()">&#10095;</button>
+</section>
+
+
+<section class="featured-products">
+  <h2 class="section-title">Featured Products</h2>
+  <div class="featured-container">
+      <div class="product">
+          <img src="assert/img/iphone.png" alt="Product 1">
+          <h3 class="product-title">iphone 15</h3>
+          <p class="product-description">Take beautiful pictures, watch content on a superfluid display and stream with virtually lag-free 5G* </p>
+          <span class="product-price">$99.99</span>
+          <a href="#" class="product-button">Buy Now</a>
+      </div>
+      <div class="product">
+          <img src="assert/img/s21 ultra.jpg" alt="Product 2">
+          <h3 class="product-title">Sumsung s21 ultra</h3>
+          <p class="product-description">Take beautiful pictures, watch content on a superfluid display and stream with virtually lag-free 5G* </p>
+          <span class="product-price">$149.99</span>
+          <a href="#" class="product-button">Buy Now</a>
+      </div>
+      <div class="product">
+        <img src="assert/img/sumsungs23ultra.jpg" alt="Product 2">
+        <h3 class="product-title">Sumsung s23 ultra</h3>
+        <p class="product-description">Take beautiful pictures, watch content on a superfluid display and stream with virtually lag-free 5G* .</p>
+        <span class="product-price">$149.99</span>
+        <a href="#" class="product-button">Buy Now</a>
+    </div>
+    <div class="product">
+      <img src="assert/img/google pixel 6.jpg" alt="Product 2">
+      <h3 class="product-title">google pixel 6</h3>
+      <p class="product-description">Take beautiful pictures, watch content on a superfluid display and stream with virtually lag-free 5G* </p>
+      <span class="product-price">$149.99</span>
+      <a href="#" class="product-button">Buy Now</a>
+  </div>
+
+
+      <!-- Add more products as needed -->
+  </div>
+</section>
+
+<section class="benefits">
+  <h2 class="section-title">Our Benefits</h2>
+  <div class="benefits-container">
+      <div class="benefit">
+          <img src="assert/img/shopping.png" alt="Free Shipping">
+          <h3 class="benefit-title">Free Shipping</h3>
+          <p class="benefit-description">Free shipping no extra pay for delivery , shop more make pretty your style.</p>
+      </div>
+      <div class="benefit">
+          <img src="assert/img/quality.png" alt="Quality Products">
+          <h3 class="benefit-title">Quality Products</h3>
+          <p class="benefit-description">Best and Good quality product metirial easy shop.</p>
+      </div>
+      <div class="benefit">
+          <img src="assert/img/help.png" alt="24/7 Support">
+          <h3 class="benefit-title">24/7 Support</h3>
+          <p class="benefit-description">You can at any time we will recive it main import to the coustomer.</p>
+      </div>
+  </div>
+</section>
+<!-- Your other page content goes here -->
+
+<section class="testimonials">
+  <div class="testimonial-container">
+    <h2 class="section-title">Testimonials</h2>
+    <div class="testimonial">
+      <img src="assert/img/4.jpg" alt="Avatar">
+      <p class="testimonial-text">"The most successful businesses use mobile apps to engage with customers and reach new markets "</p>
+      <p class="testimonial-author">Emily Robin</p>
+    </div>
+    <div class="testimonial">
+      <img src="assert/img/4.jpg" alt="Avatar">
+      <p class="testimonial-text">"The most successful businesses use mobile apps to engage with customers and reach new markets"</p>
+      <p class="testimonial-author">Jane Smith</p>
+    </div>
+    <!-- Add more testimonials as needed -->
+  </div>
+</section>
+
+<section class="newsletter">
+  <div class="container">
+    <h2 class="section-title">Subscribe to Our Newsletter</h2>
+    <p class="newsletter-description">Stay updated with our latest products and promotions!</p>
+    <form class="newsletter-form" action="#" method="post">
+      <input type="email" name="email" placeholder="Enter your email address" required>
+      <button type="submit" class="btn-subscribe">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <h3 class="footer-title">About Us</h3>
+        <p>We are an authorised online reseller for Vodacom, Telkom and MTN,<br> to bring you the latest mobile deals across various networks. 
+          <br>Whether you are looking for a newline or upgrade, call us and we will get it to you, quickly and efficiently. </p>
+      </div>
+      <div class="footer-column">
+        <h3 class="footer-title">Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3 class="footer-title">Contact Us</h3>
+        <p>123 Main Street,tv malai, Gudalur</p>
+        <p>Email: ciby@gmial.com</p>
+        <p>Phone: +1 234 567 890</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Your Mobile Store. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" class="social-link">Facebook</a>
+        <a href="#" class="social-link">Twitter</a>
+        <a href="#" class="social-link">Instagram</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="assert/js/scr.js"></script>
+</body>
+</html>
